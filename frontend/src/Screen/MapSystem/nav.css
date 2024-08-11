@@ -1,0 +1,55 @@
+/* Ellipse 453 */
+
+.circle-shadow{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+/* Box */
+
+.button-shadow{
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.start-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  @keyframes expandLine {
+    from {
+      width: 0;
+    }
+    to {
+      width: 8rem;
+    }
+  }
+  
+  @keyframes animateIn {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0); /* Move left by half the line width */
+    }
+  }
+  
+  @keyframes animateOut {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(0); /* Move right by half the line width */
+    }
+  }
+  
+  .animate-line {
+    animation: expandLine 2s forwards;
+  }
+  
+  .animate-out {
+    animation: animateOut 2s forwards;
+  }
+  
+  .animate-in {
+    animation: animateIn 2s forwards;
+  }
+  

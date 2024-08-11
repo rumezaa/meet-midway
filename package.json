@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-simple-star-rating": "^5.1.7",
+    "react-star-ratings": "^2.3.0"
+  }
+}

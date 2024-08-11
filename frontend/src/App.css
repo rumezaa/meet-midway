@@ -1,0 +1,28 @@
+/* App.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevents scrolling on the body */
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .app-container {
+    width: 100%;
+    max-width: 480px; /* Typical width for mobile devices */
+    height: 100%; /* Full height of the viewport */
+    border: 1px solid #ccc; /* Optional: to make the boundary clear */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: for better visibility */
+    overflow: hidden;
+    background-color: white; /* Or any other background color */
+    display: flex;
+    flex-direction: column; /* Flexbox to manage content inside the container */
+  }
+  
