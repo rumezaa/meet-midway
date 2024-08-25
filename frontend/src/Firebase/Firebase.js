@@ -9,12 +9,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Web app's Firebase configuration 
 const firebaseConfig = {
-    apiKey: "AIzaSyBiMM-ZrnqBIfVaEYg3gbq3IbI3xLDLIRk",
-    authDomain: "meetmidway-11c52.firebaseapp.com",
-    projectId: "meetmidway-11c52",
-    storageBucket: "meetmidway-11c52.appspot.com",
-    messagingSenderId: "183536709536",
-    appId: "1:183536709536:web:04f38e856528a41f3efec5",
+  
 };
 
 // Initialize Firebase
